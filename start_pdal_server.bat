@@ -1,0 +1,1 @@
+npx lws --stack  lws-body-parser lws-static lws-cors pdal_server.js   -p 8003

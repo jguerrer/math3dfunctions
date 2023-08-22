@@ -1,0 +1,1 @@
+npx --node-options=--inspect --max-old-space-size=8192  lws --stack  lws-body-parser lws-static lws-cors spatial_functions_server.js   -p 8001

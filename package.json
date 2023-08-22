@@ -1,0 +1,39 @@
+{
+  "name": "math3dfunctions",
+  "version": "1.0.0",
+  "description": "Set of 3D functions to manipulate and create 3d vectors and 3d points. Applicable to pointclouds.",
+  "main": "MathFunctions3D.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "spatial_server":"npx lws --stack  lws-body-parser lws-static lws-cors  spatial_functions_server.js -p 8001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jguerrer/math3dfunctions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jguerrer/math3dfunctions/issues"
+  },
+  "homepage": "https://github.com/jguerrer/math3dfunctions#readme",
+  "dependencies": {
+    "best-fitting-plane": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "file-system": "^2.2.2",
+    "gpu.js": "^2.15.2",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-parser": "^1.0.8",
+    "koa-route": "^3.2.0",
+    "line-reader": "^0.4.0",
+    "lws": "^4.1.1",
+    "lws-body-parser": "^2.0.0",
+    "lws-cors": "^3.0.0",
+    "lws-static": "^3.1.0",
+    "mathjs": "^9.4.4",
+    "milsushi2": "0.0.2",
+    "n-readlines": "^1.0.1",
+    "pg-promise": "^10.11.0"
+  }
+}
